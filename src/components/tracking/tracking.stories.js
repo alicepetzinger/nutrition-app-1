@@ -1,11 +1,9 @@
 import "./tracking.css";
-import trackingText from "./tracking-text.html";
-import trackingLogo from "./tracking-logo.html";
+import tracking from "./tracking.html";
 
 export default {
-  title: "Components/tracking",
+  title: "Components/Tracking",
   parameters: { layout: "centered" },
 };
 
-export const withText = () => trackingText;
-export const withLogo = () => trackingLogo;
+export const view = () => tracking;

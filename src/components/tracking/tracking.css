@@ -1,8 +1,6 @@
-.btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: var(--color-primary);
-  border: none;
-  padding: 10px 40px;
+.tracking {
+  display: grid;
+  background-color: var(--color-tracking);
+  width: 20rem;
+  height: 5.5rem;
 }
