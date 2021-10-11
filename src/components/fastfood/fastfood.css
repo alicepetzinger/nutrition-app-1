@@ -1,4 +1,4 @@
-.fastfood {
+.main-article-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -6,12 +6,12 @@
   border-radius: 2rem;
   padding: 1rem;
 }
-.fastfood__readnow {
+.main-article-card__readnow {
   display: grid;
   row-gap: 0.4rem;
   padding: 0.8rem;
 }
-.fastfood__article {
+.main-article-card__title {
   font-size: 0.6rem;
   color: var(--color-secondary);
 }
