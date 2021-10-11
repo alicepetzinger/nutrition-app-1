@@ -2,15 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  text-align: left;
-  justify-content: center;
   background-color: var(--color-tracking);
-  width: 20rem;
-  height: 5.5rem;
   border-radius: 1.5rem;
+  padding: 1rem;
 }
 .tracking__title {
-  padding: 1rem;
-  display: grid;
+  padding-right: 1rem;
   color: var(--color-contrast);
 }
